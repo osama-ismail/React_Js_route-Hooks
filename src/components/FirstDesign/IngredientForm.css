@@ -1,0 +1,54 @@
+.ingredient-form {
+  width: 30rem;
+  margin: 2rem auto;
+  max-width: 80%;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+.form-control input {
+  font: inherit;
+  padding: 0.1rem 0.25rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-bottom-color: #ff2058;
+}
+.ingredient-form {
+  width: 30%;
+  height: 60%;
+}
+.ingredient-form__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-section {
+  background-color: rgb(140, 104, 174);
+  width: 80%;
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#amount {
+  padding-bottom: 50px;
+}
+.sec2 {
+  width: 80%;
+  height: 1%;
+  background-color: rgb(140, 104, 174);
+  display: flex;
+  justify-content: first baseline;
+  align-items: flex-start;
+  margin-top: -25px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}

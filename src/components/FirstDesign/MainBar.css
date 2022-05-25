@@ -1,0 +1,12 @@
+header{
+    background-color: rgb(140, 104, 174);
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    border: 1px solid black;
+}

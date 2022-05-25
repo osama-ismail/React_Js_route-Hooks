@@ -1,0 +1,23 @@
+*,body{
+margin: 0;
+padding: 0;
+}
+.page{
+    /* display: flex; */
+    /* float: left; */
+    /* flex-direction:; */
+
+    height: 609px;
+    width: 100%;
+    background-color: black;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(140, 104, 174) ;
+}
+.form-review{
+    background-color: chartreuse;
+    width: 10%;
+    height: 88%;
+}

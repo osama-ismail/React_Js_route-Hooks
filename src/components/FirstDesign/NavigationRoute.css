@@ -1,0 +1,36 @@
+.routSection{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height:536px ;
+    background-color: rgb(162, 186, 186);
+
+}
+.all-div{
+   
+}
+.second-div{
+    height: 50%;
+    background-color: rgb(102, 121, 141);
+    padding-top: -100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 51px;
+    width: 100%;
+    border: 1px solid black;
+
+}
+.first-div{
+    height: 50%;
+    background-color: rgb(102, 121, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+}
+.active{
+    color:red
+}
+
+
