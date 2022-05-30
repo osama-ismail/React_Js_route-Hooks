@@ -8,10 +8,12 @@ const Preview = (props) => {
   useEffect(() => {
     setShow(props.ingrediants);
   }, [props.ingrediants]);
-  const editData = (data1) => {
+
+  //this function use to edit data;
+  const editData = (data) => {
     let value = show.map((value, index) => {
       value.edit = false;
-      if (index == data1) {
+      if (index == data) {
         value.edit = true;
       }
       return value;
@@ -46,7 +48,6 @@ const Preview = (props) => {
               {"descreption :"}
               {info.descreption}
             </div>
-            {show[index]?.edit && <input type="text"></input>}
           </li>
         </Card>
       ))}

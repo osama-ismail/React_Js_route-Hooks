@@ -11,13 +11,7 @@ const FormInput = (props) => {
   let sd = props.num;
   const formSubmissionHandler = (event) => {
     event.preventDefault();
-    // fetch('https://firstprojectcard-default-rtdb.firebaseio.com/ingredients.json',{
-    // method:'POST',
-    // body:JSON.stringify(ingredient)
-    // });
-    // setEnteredId(++number);
-    ++sd;
-    //  osa
+
     props.onAddData({
       title: enteredTitle,
       descreption: enteredDescreption,

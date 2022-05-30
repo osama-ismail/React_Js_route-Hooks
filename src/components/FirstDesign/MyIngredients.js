@@ -8,7 +8,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import FormInput from "./FormInput";
 const MyIngredients = () => {
   const [userInformation, setUserInformation] = useState([]);
-
+  //this function to generate a random number between any two numbers;
   function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);

@@ -42,13 +42,6 @@ const FormDetails = (props) => {
         </form>
       </Card>
     </section>
-    //     <section className='sec1'>
-    //      <div>Preview</div>
-    //     <div className='details'>
-    //         <div className='title'>your title is :  </div>
-    //         <div className='Description'> your Description is : </div>
-    //     </div>
-    //    </section>
   );
 };
 export default FormDetails;
